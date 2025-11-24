@@ -10,3 +10,4 @@ router.get("/", financeController.getAll.bind(financeController));
 router.get("/:id", financeController.getById.bind(financeController));
 
 export { router as financeRouter };
+

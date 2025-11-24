@@ -10,3 +10,4 @@ export interface BackgroundImageCreateInput extends Omit<BackgroundImage, "id" |
 
 export interface BackgroundImageUpdateInput extends Partial<Omit<BackgroundImage, "id" | "createdAt" | "updatedAt">> {}
 
+
