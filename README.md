@@ -1,4 +1,4 @@
-# AlexWeb
+# Used Cardealership web
 
 A modern, full-stack car dealership web application built with React, Express, TypeScript, and SQLite.
 
