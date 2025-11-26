@@ -14,3 +14,4 @@ export interface PopularItemCreateInput extends Omit<PopularItem, "id" | "create
 export interface PopularItemUpdateInput extends Partial<Omit<PopularItem, "id" | "createdAt" | "updatedAt">> {}
 
 
+

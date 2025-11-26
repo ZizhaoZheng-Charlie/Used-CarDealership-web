@@ -1,4 +1,4 @@
-import { Home, Search, ArrowLeft } from "lucide-react";
+import { Home, ArrowLeft } from "lucide-react";
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/Button";
 

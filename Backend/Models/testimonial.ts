@@ -16,3 +16,4 @@ export interface TestimonialCreateInput extends Omit<Testimonial, "id" | "create
 export interface TestimonialUpdateInput extends Partial<Omit<Testimonial, "id" | "createdAt" | "updatedAt">> {}
 
 
+

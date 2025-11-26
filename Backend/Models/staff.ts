@@ -17,3 +17,4 @@ export interface StaffMemberCreateInput extends Omit<StaffMember, "id" | "create
 export interface StaffMemberUpdateInput extends Partial<Omit<StaffMember, "id" | "createdAt" | "updatedAt">> {}
 
 
+

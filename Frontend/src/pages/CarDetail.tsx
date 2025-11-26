@@ -1,4 +1,4 @@
-import { useState, useMemo, useEffect, useRef } from "react";
+import { useState, useEffect, useRef } from "react";
 import { useParams, useNavigate } from "react-router-dom";
 import { Card } from "@/components/ui/Card";
 import { Button } from "@/components/ui/Button";
@@ -21,7 +21,7 @@ import {
   Sofa,
   ScanLine,
 } from "lucide-react";
-import { getVehicles, getVehicle, type Vehicle } from "@/lib/api";
+import { getVehicle, type Vehicle } from "@/lib/api";
 
 const getCondition = (year: string, mileage: string): string => {
   const yearNum = parseInt(year);

@@ -1,4 +1,3 @@
-import { Award, Users, Shield, Heart } from "lucide-react";
 import { features } from "@/lib/constants";
 
 export function FeaturesSection() {

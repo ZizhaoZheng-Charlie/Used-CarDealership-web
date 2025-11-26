@@ -11,3 +11,4 @@ router.get("/:id", financeController.getById.bind(financeController));
 
 export { router as financeRouter };
 
+
